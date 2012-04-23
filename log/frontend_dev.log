@@ -1,0 +1,14 @@
+Apr 23 14:12:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 23 14:12:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 23 14:12:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 23 14:12:17 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 23 14:12:17 symfony [info] {sfPHPView} Render "/home/hector/sfprojects/jobeet/lib/vendor/symfony-1.4.17/lib/controller/default/templates/indexSuccess.php"
+Apr 23 14:12:17 symfony [info] {sfPHPView} Decorate content with "/home/hector/sfprojects/jobeet/lib/vendor/symfony-1.4.17/lib/controller/default/templates/defaultLayout.php"
+Apr 23 14:12:17 symfony [info] {sfPHPView} Render "/home/hector/sfprojects/jobeet/lib/vendor/symfony-1.4.17/lib/controller/default/templates/defaultLayout.php"
+Apr 23 14:12:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 23 14:12:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 23 14:12:17 symfony [info] {sfWebDebugLogger} Configuration 64.99 ms (9)
+Apr 23 14:12:17 symfony [info] {sfWebDebugLogger} Factories 59.66 ms (1)
+Apr 23 14:12:17 symfony [info] {sfWebDebugLogger} Action "default/index" 0.08 ms (1)
+Apr 23 14:12:17 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 9.23 ms (1)
+Apr 23 14:12:17 symfony [info] {sfWebResponse} Send content (28647 o)
